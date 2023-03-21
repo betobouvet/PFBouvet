@@ -171,15 +171,16 @@ select {
 .titulo_personalizado {
   font-size: 2rem;
   justify-content: center;
-  margin: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 section article div p {
-  margin: 10px;
+  padding: 1rem;
 }
 
 section article ul li {
-  margin: 20px;
+  padding: 1rem;
 }
 
 .bg-color-08415C {
@@ -188,7 +189,19 @@ section article ul li {
 
 .color_fondo_principal {
   background-color: #C6DDF0;
+  height: auto;
 }
+
+.height_nuestros_servicios{
+  height: 100%;
+}
+
+.tamaño_imagen_meme{
+  height: 24rem;
+  width: 24rem;
+}
+
+
 
 .logo_de_la_empresa {
   width: 7rem;

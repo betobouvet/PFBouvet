@@ -170,15 +170,17 @@ select {
 .titulo_personalizado {
     font-size: 2rem;
     justify-content: center;
-    margin: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
+
 section article div p {
-    margin: 10px;
+    padding: 1rem;
 }
 
 section article ul li {
-    margin: 20px;
+    padding: 1rem;
 }
 
 
@@ -192,6 +194,7 @@ section article ul li {
 
 .color_fondo_principal {
     background-color: #C6DDF0;
+    height: auto;
 }
 
 .logo_de_la_empresa {
@@ -220,12 +223,14 @@ section article ul li {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    img{
+
+    img {
         width: 35rem;
         height: 30rem;
     }
 }
-.margenes_consejosutiles{
+
+.margenes_consejosutiles {
     margin-left: 3rem;
 
 }
