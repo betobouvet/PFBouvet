@@ -9,9 +9,12 @@
         align-content: center;
         flex-wrap: wrap;
         list-style: none;
+        li a,svg{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-content: center;
+        }
     }
-}
-.tamaño_de_logos_de_contacto {
-    height: 3rem;
-    width: 3rem;
+    
 }

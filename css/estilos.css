@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .footer {
   background-color: #08415C;
   text-decoration: none;
@@ -10,10 +9,11 @@
   flex-wrap: wrap;
   list-style: none;
 }
-
-.tamaño_de_logos_de_contacto {
-  height: 3rem;
-  width: 3rem;
+.footer ul li a, .footer ul svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
 }
 
 /*
