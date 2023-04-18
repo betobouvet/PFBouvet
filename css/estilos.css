@@ -1,4 +1,21 @@
 @charset "UTF-8";
+.footer {
+  background-color: #08415C;
+  text-decoration: none;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.tamaño_de_logos_de_contacto {
+  height: 3rem;
+  width: 3rem;
+}
+
 /*
 *  html5resetcss
 */
@@ -164,25 +181,6 @@ select {
   vertical-align: middle;
 }
 
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-.titulo_personalizado {
-  font-size: 2rem;
-  justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-section article div p {
-  padding: 1rem;
-}
-
-section article ul li {
-  padding: 1rem;
-}
-
 .bg-color-08415C {
   background-color: #08415C;
 }
@@ -192,17 +190,6 @@ section article ul li {
   height: auto;
 }
 
-.height_nuestros_servicios{
-  height: 100%;
-}
-
-.tamaño_imagen_meme{
-  height: 24rem;
-  width: 24rem;
-}
-
-
-
 .logo_de_la_empresa {
   width: 7rem;
   height: 7rem;
@@ -210,16 +197,31 @@ section article ul li {
   max-height: 10rem;
 }
 
-.footer {
-  background-color: #08415C;
-  text-decoration: none;
+* {
+  font-family: "Roboto", sans-serif;
 }
-.footer ul {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  flex-wrap: wrap;
-  list-style: none;
+
+.row {
+  --bs-gutter-x:0px;
+}
+
+.titulo_personalizado {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 3rem;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+section article div p {
+  padding: 1rem;
+}
+
+section article ul li {
+  padding: 1rem;
 }
 
 .dimensiones_torino {
@@ -237,9 +239,33 @@ section article ul li {
   margin-left: 3rem;
 }
 
-.tamaño_de_logos_de_contacto {
-  height: 3rem;
-  width: 3rem;
+.accordion {
+  --bs-accordion-bg: #8DA7BE;
+}
+
+.titulos_h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h5 {
+  color: black;
+  font-size: 2rem;
+  background-color: #8DA7BE;
+  border: 2px solid black;
+}
+
+.foto_trabajando {
+  aspect-ratio: 1200, 1600;
+  width: calc(35rem - 200px);
+}
+
+.card {
+  background-color: #8DA7BE;
 }
 
 /*# sourceMappingURL=estilos.css.map */

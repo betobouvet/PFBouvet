@@ -1,0 +1,17 @@
+// Footer
+.footer {
+    background-color: #08415C;
+    text-decoration: none;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+}
+.tamaño_de_logos_de_contacto {
+    height: 3rem;
+    width: 3rem;
+}
