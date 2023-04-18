@@ -1,15 +1,20 @@
 .footer {
   background-color: #08415C;
   text-decoration: none;
+  height: 5rem;
 }
-.footer ul {
+.footer div {
+  height: 100%;
+}
+.footer div ul {
+  height: 100%;
   display: flex;
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
   list-style: none;
 }
-.footer ul li a, .footer ul svg {
+.footer div ul li a, .footer div ul svg {
   width: 100%;
   height: 100%;
   display: flex;
@@ -199,6 +204,10 @@ select {
 
 * {
   font-family: "Roboto", sans-serif;
+}
+
+main {
+  min-height: 90vh;
 }
 
 .row {

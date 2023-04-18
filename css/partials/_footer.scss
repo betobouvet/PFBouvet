@@ -2,8 +2,13 @@
 .footer {
     background-color: #08415C;
     text-decoration: none;
+    height: 5rem;
+
+div{
+    height: 100%;
 
     ul {
+        height: 100%;
         display: flex;
         justify-content: space-around;
         align-content: center;
@@ -16,5 +21,7 @@
             align-content: center;
         }
     }
-    
+ 
+}
+       
 }
